@@ -1,7 +1,7 @@
 <div>
 <h1>Java</h1>
 </div>
-
+<br>
 <div>
 <h2> Java란? </h2>
 <p>
