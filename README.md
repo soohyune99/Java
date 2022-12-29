@@ -123,10 +123,49 @@
 <p> &nbsp; 따라서 람다식을 익명 메소드(Anonymous Method)라고도 부른다.</p>
 </div>
 <br>
+
 <div>
-<h2>람다식 문법</h2>
-<p> &nbsp; 1. (매개변수 형식 나열, ...) -> 리턴값;</p>
-<p> &nbsp; 2. (매개변수 형식 나열, ...) -> {2개 이상의 문장 작성; return 리턴값;}</p>
+<h2>컬렉션 프레임워크 : 자료구조</h2>
+<p> &nbsp;많은 데이터를 쉽고 효과적으로 관리할 수 있는 표준화된 방법을 제공하는 클래스들의 집합.</p>
+<p> &nbsp; List, Set 인터페이스는 Collection 인터페이스를 상속받기 때문에 두 인터페이스의 공통적인 부분을 Collection 인터페이스에서 정의하고 있다.</p>
+<p> &nbsp; 반면 Map 인터페이스는 구조상의 차이(Key-Value)로 인해 Collection 인터페이스를 상속받지않고 별도로 정의된다.</p>
 </div>
 <br>
+
+<div>
+<h2>1. List extends Collection</h2>
+<h3> &nbsp; List 구현 클래스</h3>
+<p> &nbsp; Vector : 용량 관리, 보안성 강화, 처리량 감소</p>
+<p> &nbsp; LinkedList : FILO으로 인해 넣을 때는 빨라도 뺄때에는 상대적으로 느리다.</p>
+<p> &nbsp; ArraryList : 인덱스로 데이터를 관리한다.</p>
+<p> &nbsp; &nbsp; &nbsp; &nbsp; 컬렉션 클래스 중 실무에서 가장 많이 사용되는 클래스이다. </p>
+<p> &nbsp; &nbsp; &nbsp; &nbsp; 배열의 특징인 인덱스를 이용하여 값을 저장하고 관리한다. </p>
+</div>
+<br>
+
+<div>
+<h2>배열과 ArrayList 차이</h2>
+<p> &nbsp; 배열은 길이에 제한을 두어야 할 때 자주 사용되고,</p>
+<p> &nbsp; ArrayList는 몇개의 데이터가 들어올지 알 수 없을때 사용한다. </p>
+</div>
+<br>
+
+
+<div>
+<h2>Set : 집합</h2>
+<h3> &nbsp; HashSet 구현 클래스</h3>
+<p> &nbsp; 집합에서는 중복되는 원소를 포함할 수 없는 것처럼 HashSet이라는 자료구조는 중복되는 값을 무시한다.</p>
+<p> &nbsp; 저장된 값들을 인덱스가 없기 때문에 순서가 없다.</p>
+<p> &nbsp; 값의 유무 검사에 특화되어 있는 자료구조이고 해시코드로 유무 검사가 진행되고 속도가 상대적으로 좋다.</p>
+</div>
+<br>
+
+<div>
+<h2>Map</h2>
+<h3> &nbsp; HashMap(서버 간 데이터 교환) 구현 클래스</h3>
+<p> &nbsp; Key와 Value 한쌍으로 저장되며, 검색의 목적을 가지고 있다.</p>
+<p> &nbsp; Key는 중복된 값을 넣으면 Value가 최근 값으로 수정되고 중복되지 않은 값을 넣으면 새롭게 추가된다.</p>
+<p> &nbsp; Value는 중복이 가능하다.</p>
+</div>
+<br>		
 
